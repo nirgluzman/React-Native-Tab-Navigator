@@ -21,20 +21,18 @@ export default function App() {
         <BottomTab.Screen
           name='Welcome'
           component={WelcomeScreen}
-          options={
-            {
-              //  options to configure ONLY this screen
-            }
-          }
+          options={{
+            //  options to configure ONLY this screen
+            tabBarIcon: (color, size) => <Ionicons name='home' size={size} color={color} />
+          }}
         />
         <BottomTab.Screen
           name='User'
           component={UserScreen}
-          options={
-            {
-              //  options to configure ONLY this screen
-            }
-          }
+          options={{
+            //  options to configure ONLY this screen
+            tabBarIcon: (color, size) => <Ionicons name='person' size={size} color={color} />
+          }}
         />
       </BottomTab.Navigator>
     </NavigationContainer>
