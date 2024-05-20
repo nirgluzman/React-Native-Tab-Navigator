@@ -13,11 +13,13 @@ export default function App() {
     <NavigationContainer>
       <BottomTab.Navigator
         initalRouteName='Welcome' // sets the default screen of the stack
-        screenOptions={
-          {
-            // default options for ALL screens in the navigator
-          }
-        }>
+        screenOptions={{
+          // default options for ALL screens in the navigator
+          headerStyle: { backgroundColor: '#3c0a6b' },
+          headerTintColor: 'white',
+          tabBarActiveTintColor: '#3c0a6b', // color for the icon and label in the active tab.
+          tabBarInactiveTintColor: 'gray' // color for the icon and label in the inactive tabs.
+        }}>
         <BottomTab.Screen
           name='Welcome'
           component={WelcomeScreen}
