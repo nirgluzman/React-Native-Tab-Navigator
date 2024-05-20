@@ -18,10 +18,14 @@ https://github.com/nirgluzman/React-Native-Tab-Navigator.git
 
 ### Drawer Navigator
 
+https://reactnavigation.org/docs/drawer-navigator/
+
 - `Drawer` Navigator renders a navigation drawer on the side of the screen which can be opened and
   closed via gestures.
 
 ### Tab Navigator
+
+https://reactnavigation.org/docs/bottom-tab-navigator
 
 - Tab Navigators allow you to add tabbed navigation at different locations in the screen.
 - Each tab is linked to a Screen or nested Stack Navigator and displays an active state when
